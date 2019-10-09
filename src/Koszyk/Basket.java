@@ -55,13 +55,45 @@ public class Basket {
     public void showOrder(){
 
         System.out.println("Liczba elementow: " + order.size());
-        System.out.println(order);
 
-        System.out.println("```````````````````````````````````");
-        System.out.println("```````````````````````````````````");
         for(Entry<Item, Integer> it : order.entrySet()){
             System.out.println(it);
         }
-        System.out.println("````````````````````````````````````");
+
     }
+    public void clearOrder(){
+       order.clear();
+        System.out.println("all clear!");
+   }
+
+   public int sizeOrder(){
+       return order.size();
+   }
+
+    /*@Override
+    public String toString() {
+        String s="";
+        for(Entry<Item, Integer> e: order.entrySet()){
+            s = "{ (name: " + e.getKey().name + "  price: " +  e.getKey().price + ")=" + e.getValue() + "}";
+        }
+        return s;
+    }
+
+    @Override
+    public int hashCode() {
+        int sum=0;
+        for(Entry<Item, Integer> amount : order.entrySet()){
+            sum+= (amount.getKey().price*amount.getValue())+(amount.getKey().name.hashCode());
+        }
+        return sum;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+
+        if (obj == null || (this.getClass() != obj.getClass())) return false;
+
+        return this.hashCode() == obj.hashCode();
+    }*/
 }

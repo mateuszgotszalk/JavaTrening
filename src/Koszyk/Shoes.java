@@ -16,7 +16,7 @@ public class Shoes extends Item{
         input.close();
     }
 
-    public Shoes(String name, double price, String brand, String destiny, double size){
+    public Shoes(String name, double price, String destiny, double size){
         super(name, price);
             this.destiny = destiny;
             this.size = size;

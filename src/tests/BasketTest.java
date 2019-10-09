@@ -45,13 +45,35 @@ public class BasketTest {
         basket.showOrder();
     }
 
-    @Test
-    public void addItem1Test() {
+    @Test(expected = Exception.class)
+    public void AmountShouldBeNonZeroTest() throws Exception {
+        basket.addItem(new Item("Pocket", 20),0);
+    }
 
+    @Test(expected = Exception.class)
+    public void AmountShouldBeGreaterThanZeroTest() throws Exception {
+        basket.addItem(new Item("Pocket", 20),-3);
+    }
+
+    @Test(expected = Exception.class)
+    public void AmountShouldBeNonZeroRemoveTest() throws Exception {
+        basket.removeItem(it1,0);
+    }
+
+    @Test(expected = Exception.class)
+    public void AmountShouldBeGreaterThanZeroRemoveTest() throws Exception {
+        basket.removeItem(it2,-3);
+    }
+    @Test(expected = Exception.class)
+    public void AmountShouldBeLessThenAmountOfItemRemoveTest() throws Exception {
+        basket.removeItem(it2,10);
     }
 
     @Test
-    public void removeItemTest() {
+    public void removeItemTest() throws Exception {
+        basket.removeItem(it1,1);
+        basket.showOrder();
+        assertEquals(3,basket.sizeOrder());
     }
 
     @Test
@@ -62,5 +84,12 @@ public class BasketTest {
     @Test
     public void showOrderTest() {
         basket.showOrder();
+    }
+
+    @Test
+    public void clearOrderTest() {
+        assertEquals(4, basket.sizeOrder());
+        basket.clearOrder();
+        assertEquals(0,basket.sizeOrder());
     }
 }

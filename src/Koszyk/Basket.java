@@ -53,7 +53,6 @@ public class Basket {
     }
 
     public void showOrder(){
-
         System.out.println("Liczba elementow: " + order.size());
 
         for(Entry<Item, Integer> it : order.entrySet()){

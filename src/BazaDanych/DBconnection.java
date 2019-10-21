@@ -17,7 +17,7 @@ public class DBconnection {
         try {
             conn = DriverManager.getConnection(url, user, pw);
             System.out.println();
-            System.out.println("polaczylo sie w chuj ziomeczku sztywniotko jest");
+            System.out.println("polaczylo sie");
         }
         catch(Exception e){
             System.out.println(e.getMessage());

@@ -1,9 +1,11 @@
 package Koszyk;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String []args){
-
 
         Basket basket = new Basket();
         Item item1 = new Item("Adidasy", 100);

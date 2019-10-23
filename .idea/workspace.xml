@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0470b05b-5124-410a-a34b-2c19a8ffeb6f" name="Default Changelist" comment="r">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BazaDanych/DBconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BazaDanych/DBconnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Koszyk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Koszyk/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kolka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kolka/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +16,15 @@
     <session id="1071854171">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="2" />
@@ -32,66 +33,51 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="20524" />
+          <entry key="java" value="21277" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20524" />
+          <entry key="JAVA" value="21277" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="172" />
+          <entry key="java" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="172" />
+          <entry key="JAVA" value="175" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/BasketTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
-              <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ItemTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BazaDanych/DBconnection.java">
+        <entry file="file://$PROJECT_DIR$/src/Kolka/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="1343">
+              <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#1660#1661#0" expanded="true" />
+                <element signature="e#1700#1701#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +100,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Kolka/Main.java" />
-        <option value="$PROJECT_DIR$/src/Kolka/Main.java" />
         <option value="$PROJECT_DIR$/src/BazaDanych/old.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa9176.22719/DBConnection.java" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa9176.49951/DBConnection.java" />
@@ -137,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/tests/BasketTest.java" />
         <option value="$PROJECT_DIR$/src/Koszyk/Main.java" />
         <option value="$PROJECT_DIR$/src/BazaDanych/DBconnection.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa4988.12861/Main.java" />
+        <option value="$PROJECT_DIR$/src/Kolka/Main.java" />
       </list>
     </option>
   </component>
@@ -158,8 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +161,14 @@
               <item name="JavaTrening" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaTrening" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BazaDanych" type="462c0819:PsiDirectoryNode" />
+              <item name="Kolka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTrening" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTrening" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Kolka" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaTrening" type="b2602c69:ProjectViewProjectNode" />
@@ -189,13 +181,15 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570794045751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571826603699" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -204,7 +198,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -227,7 +221,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasketTest.clearOrderTest">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kolka.Main" />
+      <module name="JavaTrening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Kolka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="JavaTrening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTrening" />
       <extension name="coverage">
@@ -238,22 +258,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.BasketTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasketTest.AmountShouldBeGreaterThanZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTrening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BasketTest" />
-      <option name="METHOD_NAME" value="AmountShouldBeGreaterThanZeroTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -290,36 +294,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasketTest.removeItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTrening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BasketTest" />
-      <option name="METHOD_NAME" value="removeItemTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.BasketTest" />
-      <item itemvalue="JUnit.BasketTest.removeItemTest" />
-      <item itemvalue="JUnit.BasketTest.AmountShouldBeGreaterThanZeroTest" />
       <item itemvalue="JUnit.BasketTest.AmountShouldBeLessThenAmountOfItemRemoveTest" />
       <item itemvalue="JUnit.BasketTest.clearOrderTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BasketTest.clearOrderTest" />
         <item itemvalue="JUnit.BasketTest" />
         <item itemvalue="JUnit.BasketTest.AmountShouldBeLessThenAmountOfItemRemoveTest" />
-        <item itemvalue="JUnit.BasketTest.AmountShouldBeGreaterThanZeroTest" />
-        <item itemvalue="JUnit.BasketTest.removeItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -393,10 +381,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16792738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17237164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +393,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28159645" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28159645" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,7 +420,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="r" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa9972.35698/NaprawaUproszczony.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12616.23774/NaprawaSzczegoly.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12616.23913/Naprawa.java" />
     <entry file="file://$PROJECT_DIR$/src/BazaDanych/Konto.java" />
@@ -498,20 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kolka/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="77" lean-forward="true" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -642,30 +615,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/BasketTest.java">
+    <entry file="file://$PROJECT_DIR$/src/BazaDanych/DBconnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/ItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/BasketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4988.12861/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#2396#2397#0" expanded="true" />
+            <element signature="e#2436#2437#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BazaDanych/DBconnection.java">
+    <entry file="file://$PROJECT_DIR$/src/Kolka/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="1343">
+          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

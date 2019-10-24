@@ -17,7 +17,7 @@ public class DBconnection {
         try {
             conn = DriverManager.getConnection(url, user, pw);
             System.out.println();
-            System.out.println("polaczylo sie");
+            System.out.println("*****Connected*****");
         }
         catch(Exception e){
             System.out.println(e.getMessage());
@@ -30,7 +30,7 @@ public class DBconnection {
         try {
             conn.close();
             System.out.println();
-            System.out.println("baza biura disconnect");
+            System.out.println("*****Disconnect*****");
         }
         catch(Exception e){
             System.out.println(e.getMessage());

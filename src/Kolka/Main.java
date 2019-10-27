@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Main extends JFrame{
 
@@ -14,12 +15,7 @@ public class Main extends JFrame{
         JButton bttn1= (JButton)panelB.add(new JButton("Siemka"));
         panelRys.setBackground(Color./*LIGHT_*/GRAY);
         ;
-        bttn1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                StartAnimacji();
-            }
-        });
+        bttn1.addActionListener(e -> StartAnimacji());
 
         this.getContentPane().add(panelB, BorderLayout.SOUTH);
         this.getContentPane().add(panelRys);
@@ -36,13 +32,14 @@ public class Main extends JFrame{
 
     public static void main(String[] args) {
         new Main().setVisible(true);
+
     }
 }
 
 
 class PanelRys extends JPanel{
 
-    ArrayList<Kolko> kolka = new ArrayList();
+    LinkedList<Kolko> kolka = new LinkedList();
 
     public void addKolko(){
         kolka.add(new Kolko());
@@ -116,41 +113,3 @@ class Kolko {
 
     }
 }
-
-
-    /*Thread watek = new Thread(new Runnable() {
-        @Override
-        public void run() {
-            panel.addKolko();
-            for(int j=0;j<3000;j++){
-                panel.kolka.get(panel.kolka.size()-1).x += panel.kolka.get(panel.kolka.size()-1).dx;
-                panel.kolka.get(panel.kolka.size()-1).y += panel.kolka.get(panel.kolka.size()-1).dy;
-
-                if ((panel.kolka.get(panel.kolka.size()-1).y +10)>= getBounds().getMaxY()) {
-                    panel.kolka.get(panel.kolka.size()-1).y =  (int)(getBounds().getMaxY()-10);
-                    panel.kolka.get(panel.kolka.size()-1).dy = -(panel.kolka.get(panel.kolka.size()-1).dy);
-                }
-                if ((panel.kolka.get(panel.kolka.size()-1).x +10)>= getBounds().getMaxX()){
-                    panel.kolka.get(panel.kolka.size()-1).x =  (int)(getBounds().getMaxX()-10);
-                    panel.kolka.get(panel.kolka.size()-1).dx = -(panel.kolka.get(panel.kolka.size()-1).dx);
-                }
-                if ((panel.kolka.get(panel.kolka.size()-1).y)<= getBounds().getMinY()) {
-                    panel.kolka.get(panel.kolka.size()-1).y =  (int)(getBounds().getMinY());
-                    panel.kolka.get(panel.kolka.size()-1).dy = -(panel.kolka.get(panel.kolka.size()-1).dy);
-                }
-                if ((panel.kolka.get(panel.kolka.size()-1).x)<= getBounds().getMinX()) {
-                    panel.kolka.get(panel.kolka.size()-1).x =  (int)(getBounds().getMinX());
-                    panel.kolka.get(panel.kolka.size()-1).dx = -(panel.kolka.get(panel.kolka.size()-1).dx);
-                }
-
-                try{
-                    Thread.sleep(10);
-                }catch (InterruptedException e){
-                    System.out.println(e.getMessage());
-                }
-                repaint();
-            }
-        }
-    });
-
-        watek.start();*/

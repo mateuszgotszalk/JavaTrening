@@ -2,11 +2,11 @@ package Koszyk;
 
 import java.util.Scanner;
 
-public class Item implements Comparable{
+class Item implements Comparable{
     protected final String name;
     protected final double price;
 
-    public Item(){
+    Item(){
         Scanner input = new Scanner(System.in);
         System.out.println("Wpisz nazwe");
         name = input.nextLine();
@@ -15,7 +15,7 @@ public class Item implements Comparable{
         input.close();
     }
 
-    public Item(String name, double price){
+    Item(String name, double price){
             this.name = name;
             this.price = price;
     }

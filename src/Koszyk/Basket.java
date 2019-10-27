@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.Map.Entry;
 
 
-public class Basket {
+class Basket {
 
    private Map <Item, Integer> order = new TreeMap<>();
 

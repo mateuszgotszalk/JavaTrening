@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0470b05b-5124-410a-a34b-2c19a8ffeb6f" name="Default Changelist" comment="r">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BazaDanych/DBconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BazaDanych/DBconnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTrening/BazaDanych/DBconnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTrening/BazaDanych/DBconnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTrening/Koszyk/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTrening/Koszyk/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kolka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kolka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Koszyk/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Koszyk/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Koszyk/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Koszyk/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Koszyk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Koszyk/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
   </component>
   <component name="ProjectId" id="1Sdz36Rfbsaxrtw5oeZoXz4fqik" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,13 +65,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kolka.Main" />
       <module name="JavaTrening" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Kolka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Koszyk.Main" />
+      <module name="JavaTrening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Koszyk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,22 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasketTest.AmountShouldBeLessThenAmountOfItemRemoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTrening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BasketTest" />
-      <option name="METHOD_NAME" value="AmountShouldBeLessThenAmountOfItemRemoveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BasketTest.clearOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTrening" />
       <extension name="coverage">
@@ -143,17 +139,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
       <item itemvalue="JUnit.BasketTest" />
-      <item itemvalue="JUnit.BasketTest.AmountShouldBeLessThenAmountOfItemRemoveTest" />
       <item itemvalue="JUnit.BasketTest.clearOrderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BasketTest.clearOrderTest" />
         <item itemvalue="JUnit.BasketTest" />
-        <item itemvalue="JUnit.BasketTest.AmountShouldBeLessThenAmountOfItemRemoveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +227,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
